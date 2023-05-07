@@ -1,2 +1,3 @@
-# custom-xray-model
-web app using flask and yolov5s object detection algo to detect banned and harmful items inside baggage/luggage during xray scanning!
+Customised X-ray detection web app for harmful/banned items in luggage/baggage using yolov5s and FlaskAPI!
+@mukvnd
+
