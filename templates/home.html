@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <html>
+    <head>
+      <title>My Web Page</title>
+    </head>
+    <body>
+      <h1>Welcome to LuggageRay!</h1>
+      <h2>Warning! Uploaded image should be named only and only test.png</h2>
+    </body>
+    </html>
+    <head>
+        <title>File Upload</title>
+      </head>
+      <body>
+        <h1>Upload an Image</h1>
+        <form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+          <input type="file" name="file">
+          <br><br>
+          <input type="submit" value="Upload">
+        </form>
+      </body>
+</html>
